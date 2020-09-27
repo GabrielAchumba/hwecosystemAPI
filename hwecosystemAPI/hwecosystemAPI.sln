@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hwecosystemAPI", "hwecosystemAPI\hwecosystemAPI.csproj", "{5540F9FF-B213-4041-A9C3-350D266AA54D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hweecosystemAPI_Test", "hweecosystemAPI_Test\hweecosystemAPI_Test.csproj", "{B9902C23-2A24-4505-B0B6-CB399E1A6023}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestHWEcosystem", "NUnitTestHWEcosystem\NUnitTestHWEcosystem.csproj", "{921EFA9E-D8E7-458F-AB07-6B31CA3216B2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5540F9FF-B213-4041-A9C3-350D266AA54D} = {5540F9FF-B213-4041-A9C3-350D266AA54D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5540F9FF-B213-4041-A9C3-350D266AA54D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5540F9FF-B213-4041-A9C3-350D266AA54D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5540F9FF-B213-4041-A9C3-350D266AA54D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5540F9FF-B213-4041-A9C3-350D266AA54D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9902C23-2A24-4505-B0B6-CB399E1A6023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9902C23-2A24-4505-B0B6-CB399E1A6023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9902C23-2A24-4505-B0B6-CB399E1A6023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9902C23-2A24-4505-B0B6-CB399E1A6023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{921EFA9E-D8E7-458F-AB07-6B31CA3216B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{921EFA9E-D8E7-458F-AB07-6B31CA3216B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{921EFA9E-D8E7-458F-AB07-6B31CA3216B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{921EFA9E-D8E7-458F-AB07-6B31CA3216B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34F01488-25C0-42E5-8E27-4F651015A28F}
+	EndGlobalSection
+EndGlobal
